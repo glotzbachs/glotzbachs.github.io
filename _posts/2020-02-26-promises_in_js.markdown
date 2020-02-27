@@ -5,7 +5,7 @@ date:       2020-02-26 23:20:53 -0500
 permalink:  promises_in_js
 ---
 
-Promises were added into the functionality of JavaScript in ES6. One of the most helpful parts of promises is that they are asynchronous. This means while we wait for the promise to be resolved or rejected, other code will be able to run. We are also given two options with our: .then and .catch. .then allows for a resolved promise to be handled. .catch allows for a rejected promise to be handled. Before promises, extra code was needed in previous versions of JS to handle any errors, and that generally made code take a long time to load. 
+Promises were added into the functionality of JavaScript in ES6. One of the most helpful parts of promises is that they are asynchronous. This means while we wait for the promise to be resolved or rejected, other code will be able to run. We are also given two options with a promise: .then and .catch. .then allows for a resolved promise to be handled. .catch allows for a rejected promise to be handled. Before promises, extra code was needed in previous versions of JS to handle any errors, and that generally made code take a long time to load. 
 
 Getting data is something that can take a lot of time, especially since we could be waiting for a lot of data to be retrieved. In ES6 we have been given fetch. Fetch automatically comes with promise attached. Since the promise given by fetch allows for asynchrony, we do not have to wait until the end of the fetch for the rest of our code to run. This helps to make websites run more efficiently and without lags. Once the promise has been resolved, the fetch will give us the data from the api. From the fetch, either we will get an error, or a response. 
 
